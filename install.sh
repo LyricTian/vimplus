@@ -428,7 +428,7 @@ function install_ycm()
         python2.7 ./install.py --clang-completer
     else
         echo "Compile ycm with python3."
-        python3 ./install.py --clang-completer
+        python3 ./install.py --clangd-completer --go-completer --ts-completer
     fi
 }
 

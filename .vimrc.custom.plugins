@@ -14,6 +14,14 @@
 " Plug 'gorodinskiy/vim-coloresque'
 " Plug 'vim-scripts/DoxygenToolkit.vim'
 
+Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries'  }
+Plug 'SirVer/ultisnips'
+Plug 'Chiel92/vim-autoformat'
+Plug 'davidhalter/jedi-vim'
+Plug 'preservim/nerdcommenter'
+Plug 'cespare/vim-toml'
+Plug 'dracula/vim', { 'as': 'dracula'  }
+" Plug 'neoclide/coc.nvim', {'branch': 'release'}
 " 卸载/禁用~/.vimrc里的默认插件
 " UnPlug 'chxuan/prepare-code'
 

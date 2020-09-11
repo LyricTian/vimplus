@@ -126,7 +126,6 @@ call plug#begin('~/.vim/plugged')
 Plug 'chxuan/cpp-mode'
 Plug 'chxuan/vim-edit'
 Plug 'chxuan/change-colorscheme'
-Plug 'chxuan/prepare-code'
 Plug 'chxuan/vim-buffer'
 Plug 'chxuan/vimplus-startify'
 Plug 'chxuan/tagbar'
@@ -241,9 +240,6 @@ nnoremap <silent> <F11> :RandomColorScheme<cr>
 inoremap <silent> <F11> <esc> :RandomColorScheme<cr>
 nnoremap <silent> <F12> :ShowColorScheme<cr>
 inoremap <silent> <F12> <esc> :ShowColorScheme<cr>
-
-" prepare-code
-let g:prepare_code_plugin_path = expand($HOME . "/.vim/plugged/prepare-code")
 
 " vim-buffer
 nnoremap <silent> <c-p> :PreviousBuffer<cr>
