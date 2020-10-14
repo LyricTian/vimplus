@@ -21,6 +21,17 @@ Plug 'davidhalter/jedi-vim'
 Plug 'preservim/nerdcommenter'
 Plug 'cespare/vim-toml'
 Plug 'dracula/vim', { 'as': 'dracula'  }
+Plug 'plasticboy/vim-markdown'
+Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'   }
+Plug 'dense-analysis/ale'
+Plug 'prabirshrestha/vim-lsp'
+Plug 'mattn/vim-lsp-settings'
+Plug 'vim-scripts/indentpython.vim'
+" Plug 'python-mode/python-mode', { 'for': 'python', 'branch': 'develop'  }
+Plug 'sheerun/vim-polyglot'
+Plug 'tell-k/vim-autopep8'
+Plug 'airblade/vim-gitgutter'
+
 " Plug 'neoclide/coc.nvim', {'branch': 'release'}
 " 卸载/禁用~/.vimrc里的默认插件
 " UnPlug 'chxuan/prepare-code'
